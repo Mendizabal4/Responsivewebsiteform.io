@@ -1,0 +1,23 @@
+body {
+      box-sizing: border-box;
+    }
+
+    /* Use percentages for height so it works nicely inside Canva's iframe */
+    html,
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    .app-wrapper {
+      height: 100%;
+      width: 100%;
+    }
+
+    /* Focus outlines for accessibility */
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible {
+      outline: 3px solid rgba(59, 130, 246, 0.8);
+      outline-offset: 2px;
+    }
